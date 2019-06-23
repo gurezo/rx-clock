@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-clock-card',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./clock-card.component.scss']
 })
 export class ClockCardComponent implements OnInit {
+
+  @Input() value: number;
 
   constructor() { }
 
