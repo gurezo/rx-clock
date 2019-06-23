@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AnalogComponent } from './analog/analog.component';
-import { DigitalComponent } from './digital/digital.component';
+import { AnalogComponent } from './pages/analog/analog.component';
+import { DigitalComponent } from './pages/digital/digital.component';
 
 @NgModule({
   declarations: [
