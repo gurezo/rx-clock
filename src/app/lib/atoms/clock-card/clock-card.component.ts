@@ -9,7 +9,9 @@ export class ClockCardComponent implements OnInit {
 
   @Input() value: number;
 
-  constructor() { }
+  constructor() {
+    this.value = 0;
+  }
 
   ngOnInit() {
   }
