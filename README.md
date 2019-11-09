@@ -1,7 +1,7 @@
 # rx-clock
 this is clock that is making angular and rxjs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.13.
 
 ## Development server
 
